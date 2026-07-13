@@ -38,7 +38,7 @@ require_once(dirname(__DIR__)."/layouts/header.php");
        
       </div>
       
-      <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] w-full bg-bricksoft text-brick"><a href="http://mami.cisse.odc.edu.sn/index.php?controller=auth&action=connexion">Se déconnecter</a></div>
+      <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] w-full bg-bricksoft text-brick"><a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=auth&action=connexion">Se déconnecter</a></div>
     </div>
     <div class="mt-auto flex justify-around px-2.5 pt-3 pb-4 border-t border-line bg-white">
       <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=apprenant&action=accueil" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-ink font-bold">Accueil</span></a>

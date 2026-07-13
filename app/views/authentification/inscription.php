@@ -3,7 +3,6 @@
 
 <div class="max-w-[440px] mx-auto pt-16 pb-16 px-6">
 
-  <!-- En-tête -->
   <div class="flex flex-col items-center gap-2.5 mb-8">
     <div class="w-[52px] h-[52px] rounded-2xl bg-ink flex items-center justify-center">
       <div class="w-5 h-5 border-2 border-gold rounded-full"></div>
@@ -12,14 +11,6 @@
     <div class="text-inksoft text-[11.5px] text-center">Rejoindre la cotisation de la classe</div>
   </div>
 
-  <!-- Message d'erreur éventuel -->
-  <?php if (!empty($error)): ?>
-    <div class="mb-4 px-4 py-3 rounded-[10px] bg-bricksoft text-brick text-sm">
-      <?= htmlspecialchars($error) ?>
-    </div>
-  <?php endif; ?>
-
-  <!-- Carte d'inscription -->
   <div class="bg-white border border-line rounded-2xl p-6 flex flex-col gap-4">
     <div>
       <div class="text-lg font-semibold font-display">Créer un compte</div>
@@ -70,7 +61,7 @@
       </button>
 
       <div class="text-inksoft text-[11.5px] text-center">
-        Déjà inscrit ? <a href="http://mami.cisse.odc.edu.sn/index.php?controller=auth&action=connexion" class="text-ink font-semibold">Se connecter</a>
+        Déjà inscrit ? <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=auth&action=connexion" class="text-ink font-semibold">Se connecter</a>
       </div>
     </form>
   </div>

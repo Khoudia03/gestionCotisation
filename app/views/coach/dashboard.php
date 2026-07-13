@@ -50,9 +50,9 @@ require_once(dirname(__DIR__)."/layouts/header.php");
       </div>
     </div>
     <div class="mt-auto flex justify-around px-2.5 pt-3 pb-4 border-t border-line bg-white">
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=coach&action=dashboardCoach" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-ink"></div><span class="text-[9px] text-ink font-bold">Dashboard</span></a>
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=coach&action=audit" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Audit</span></a>
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=coach&action=stats" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Stats</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=coach&action=dashboardCoach" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-ink"></div><span class="text-[9px] text-ink font-bold">Dashboard</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=coach&action=audit" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Audit</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=coach&action=stats" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Stats</span></a>
       <a href="#" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Profil</span></a>
     </div>
   </div>

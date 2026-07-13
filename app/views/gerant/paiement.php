@@ -44,7 +44,7 @@ require_once(dirname(__DIR__)."/layouts/header.php");
           <div class="border-[1.5px] border-linestrong rounded-[10px] px-3 py-[11px] text-[13px] text-inksoft bg-white">4 000 FCFA</div>
         </div>
         <div class="flex gap-2 px-3 py-2.5 rounded-[10px] text-[11px] leading-[1.5] bg-goldsoft text-[#7A5B26]"><b class="font-bold">Auto —</b> le versement est ventilé sur les semaines consécutives non payées.</div>
-        <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] bg-ink text-white w-full"><a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=dashboard">Enregistrer le paiement</a></div>
+        <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] bg-ink text-white w-full"><a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=dashboard">Enregistrer le paiement</a></div>
       </div>
     </div>
   </div>

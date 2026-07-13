@@ -40,7 +40,7 @@ require_once(dirname(__DIR__)."/layouts/header.php");
         </div>
         <div class="flex gap-2 px-3 py-2.5 rounded-[10px] text-[11px] leading-[1.5] bg-bricksoft text-brick"><b class="font-bold">Règle Décès —</b> collecte ouverte 7 jours, montant libre.</div>
         <div class="flex gap-2 px-3 py-2.5 rounded-[10px] text-[11px] leading-[1.5] bg-goldsoft text-[#7A5B26]"><b class="font-bold">Règle Anniversaire —</b> ouverte uniquement la dernière semaine du mois, montant fixe.</div>
-        <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] bg-ink text-white w-full"><a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=dashboard">Créer la campagne</a></div>
+        <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] bg-ink text-white w-full"><a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=dashboard">Créer la campagne</a></div>
       </div>
     </div>
   </div>

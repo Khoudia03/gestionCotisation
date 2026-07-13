@@ -40,13 +40,13 @@ require_once(dirname(__DIR__)."/layouts/header.php");
           <div class="border-[1.5px] border-linestrong rounded-[10px] px-3 py-[11px] text-[13px] text-inksoft bg-white">Gérant — Cohorte Dev Web 2026</div>
         </div>
       </div>
-      <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] w-full bg-bricksoft text-brick">Se déconnecter</div>
+      <div class="flex items-center justify-center gap-1.5 px-4 py-3 rounded-[11px] font-semibold text-[13.5px] w-full bg-bricksoft text-brick"><a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=auth&action=connexion">Se déconnecter</a></div>
     </div>
     <div class="mt-auto flex justify-around px-2.5 pt-3 pb-4 border-t border-line bg-white">
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=dashboard" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Dashboard</span></a>
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=paiement" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Paiements</span></a>
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=apprenant" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Apprenants</span></a>
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=gerant&action=profile" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-ink"></div><span class="text-[9px] text-ink font-bold">Profil</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=dashboard" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Dashboard</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=paiement" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Paiements</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=apprenant" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-line"></div><span class="text-[9px] text-inksoft font-medium">Apprenants</span></a>
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=gerant&action=profile" class="flex flex-col items-center gap-1"><div class="w-4 h-4 rounded-[5px] bg-ink"></div><span class="text-[9px] text-ink font-bold">Profil</span></a>
     </div>
   </div>
 </div>

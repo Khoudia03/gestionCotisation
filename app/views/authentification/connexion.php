@@ -4,7 +4,7 @@
 
   <div class="bg-white border border-line rounded-2xl p-6 flex flex-col gap-4">
     <div class="text-lg font-semibold font-display">Connexion</div>
-    <form method="post" action="http://mami.cisse.odc.edu.sn/index.php?controller=auth&action=authentifier" class="flex flex-col gap-4">
+    <form method="post" action="http://mami.cisse.odc.edu.sn:80/index.php?controller=auth&action=authentifier" class="flex flex-col gap-4">
       <div>
         <label class="text-[11px] font-semibold text-inksoft uppercase tracking-[.04em] block mb-1.5">Email</label>
         <input type="email" name="email" required
@@ -29,7 +29,7 @@
         Se connecter
       </button>
       <div class="text-inksoft text-[11.5px] text-center">
-        Vous n'avez pas de compte ? <a href="http://mami.cisse.odc.edu.sn/index.php?controller=auth&action=inscrire" class="text-ink font-semibold">S'inscrire</a>
+        Vous n'avez pas de compte ? <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=auth&action=inscrire" class="text-ink font-semibold">S'inscrire</a>
       </div>    
     </form>
   </div>
@@ -39,7 +39,7 @@
       Accès de test (sans compte réel)
     </div>
     <div class="flex gap-2">
-      <a href="http://mami.cisse.odc.edu.sn/index.php?controller=home&action=accueilApprenant"
+      <a href="http://mami.cisse.odc.edu.sn:80/index.php?controller=home&action=accueilApprenant"
          class="flex-1 text-center px-3 py-2.5 rounded-[10px] text-[12px] font-semibold border-[1.5px] border-forest text-forest bg-forestsoft">
         Apprenant
       </a>
